@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* pseudo style started */
 h1{
     color: pink;
 }
@@ -16,3 +21,34 @@ h1:hover{
   color: yellowgreen;  
 
 }
+/* pseudo style ended */
+
+/* list style started */
+.lists1{
+    color:red;
+}
+.lists1 li:nth-child(2n){
+    color: cyan;
+}
+.lists2{
+    background-color: bisque;
+}
+.lists2 li:first-child{
+    background-color: blue;
+}
+.lists3 li:last-child{
+    color: yellowgreen;
+}
+.lists4 li:nth-child(4n){
+background-color: brown;
+}
+.lists5 li:nth-child(2n){
+color: darkgreen;
+}
+.lists6 li:nth-child(2n+3){
+    background-color: darkkhaki;
+}
+.lists7 li:nth-child(4n+4){
+color: cyan;
+}
+/* list styles ended */
