@@ -5,3 +5,14 @@ h1:hover{
     color: yellow;
     background-color: aquamarine;
 }
+.email:focus{
+    background-color: cadetblue;
+}
+.password:focus{
+    color: darkblue;
+    padding: 5px;
+}
+.input a:visited{
+  color: yellowgreen;  
+
+}
