@@ -1,0 +1,27 @@
+* {
+    margin-left: 30px;
+}
+
+.index {
+    position: relative;
+}
+
+.index-one {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rebeccapurple;
+    position: relative;
+    top: 70px;
+    z-index: 2;
+}
+
+.index-two {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red
+    ;
+    position: relative;
+}
+
+
+/* pseudo elements */
