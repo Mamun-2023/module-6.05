@@ -25,3 +25,17 @@
 
 
 /* pseudo elements */
+p::after{content:' : after style';
+
+background-color: cornflowerblue;}
+p::first-letter{
+    font-size: 4em;
+}
+
+h3::first-line{
+font-weight: 90px;
+}
+h3::before{
+    content: 'before style :';
+    color: brown;
+}
