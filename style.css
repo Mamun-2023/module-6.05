@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin-left:40px;
     padding: 0;
 }
 /* pseudo style started */
@@ -52,3 +52,62 @@ color: darkgreen;
 color: cyan;
 }
 /* list styles ended */
+
+.style{
+    color: springgreen;
+}
+
+
+
+
+
+/* position related style */
+
+/* static related styles */
+.static {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+
+/* relative related styles */
+.relative-styles div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid yellowgreen;
+    margin-bottom: 10px;
+}
+
+.relative {
+    position: relative;
+    margin-left: 90px;
+
+}
+
+/* absolute related styles */
+.absolute {
+    position: absolute;
+    margin-top: 150px;
+}
+
+/* sticky related styles */
+.sticky{
+    position: sticky;
+    top:50px;
+   
+    background-color: salmon;
+   height: 50px;
+   bottom: 50px;
+}
+
+
+/* fixed styles */
+.fixed{
+    position: fixed;
+    left: 500px;
+    top: 150px;
+}
+
+
+/* position related style ended */
